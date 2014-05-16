@@ -13,8 +13,8 @@
 	line-height:0px;
 }
 .rg-image img{
-	height:100%;
-	width:30%;
+	max-height:100%;
+	max-width:100%;
 }
 .rg-image-nav a{
 	position:absolute;
@@ -57,6 +57,7 @@
 }
 .rg-view{
 	height:30px;
+	display: none
 }
 .rg-view a{
 	display:block;
