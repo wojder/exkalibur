@@ -1,0 +1,506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>O hodowli Bokserów Exkalibur</title>
+<link href="http://fonts.googleapis.com/css?family=FONTNAME" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width" />
+<style type="text/css">
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+.grid {
+	padding: 2px;
+	max-width: 350px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: left;
+	float: left;
+}
+
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 75%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	background: #9e6b34;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+/*.grid figcaption span:before {
+	content: 'by';
+}*/
+
+.grid figcaption a {
+	text-align: center;
+	padding: 2px 2px;
+	border-radius: 1px;
+	display: inline-block;
+	background: #007236;
+	color: #fff;
+}
+
+/* Individual Caption Styles */
+
+
+/* Caption Style 2 */
+.cs-style-2 figure img {
+	z-index: 10;
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-2 figure:hover img,
+.cs-style-2 figure.cs-hover img {
+	-webkit-transform: translateY(-90px);
+	-moz-transform: translateY(-90px);
+	-ms-transform: translateY(-90px);
+	transform: translateY(-90px);
+}
+
+.cs-style-2 figcaption {
+	height: 90px;
+	width: 72%;
+	top: auto;
+	bottom: 0;
+}
+
+.cs-style-2 figcaption a {
+	position: absolute;
+	right: 5px;
+	left: 5px;
+	bottom: 5px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: url(img/background-pattern.jpg) repeat top left;
+	font-family: 'ubuntu', "Times New Roman", Times, serif;
+	font-size: 0.9em
+	}
+
+#logo {
+	width: 100%;
+	text-align: center;
+	margin-bottom: -25px; 
+	}	
+a {
+	text-decoration:none;
+	color: #fff;
+	}	
+#logo img {
+	max-width: 100%;
+	}
+#gallery-wrapper {
+	width: 100%;
+	padding: 6px 0;
+	background: rgba(162,171,157,.6);
+	overflow:hidden;	
+	}
+#top1, #top2, #top3, #top4 {
+	height: 350px;
+	float: left;
+	width: 25%;
+	}
+#top1 {
+	background:url(zrodla/img/top1.jpg) no-repeat top center;}
+#top2 {
+	background:url(zrodla/img/top2.jpg) no-repeat top center;}
+#top3 {
+	background:url(zrodla/img/top3.jpg) no-repeat top center;}
+#top4 {
+	background:url(zrodla/img/top4.jpg) no-repeat top center;}
+div.desc {
+	height: 140px;
+	text-align: center;
+	padding: 5px 15px;
+	background: rgba(51,51,51,.7);
+	font-size: 1.2em;
+	color: #fff;
+	margin-top: 320px;
+	-webkit-transition: all .3s ease-out 0s;
+	-moz-transition: all .3s ease-out 0s;
+	-ms-transition: all .3s ease-out 0s;
+	-o-transition: all .3s ease-out 0s;
+	transition: all .3s ease-out 0s;
+	cursor:pointer;
+	}
+div.desc:hover {
+	margin-top: 210px;
+	}
+#content-wrapper {
+	width: 960px;
+	margin: 30px auto;
+	}
+#left {
+	padding: 15px;
+	float: left;
+	width: 660px;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #fff;
+	background: rgba(109,144,82,.8)
+	}
+#right {
+	text-align: center;
+	padding: 15px;
+	float: right;
+	width: 270px;
+	background: rgba(160,175,156,.8);
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #fff;
+	}
+	
+.fluid-image {
+	margin-right: 20px;
+	float: left;}
+.extra, .logo-tablet, .logo-phone {
+	display: none;
+	}
+
+/*#pedro a{
+opacity:0.9;
+filter:alpha(opacity=100); 
+background-image: url(zrodla/img/odwet_exkaliur.jpg);
+
+display: block;
+position: absolute;
+}
+#pedro :hover{
+opacity:0.9;
+filter:alpha(opacity=100); 
+background-image: url(zrodla/img/odwet_exkaliur.jpg);
+}*/
+.fluid-image a {
+
+position: 0 10px 0 0;
+
+}
+/*
+.fluid-image #test {
+
+	background-color: #000;
+	position: relative; bottom: 91px;
+	float: left;*/
+/*}
+.fluid-image #test:hover {
+background-color: #fff;
+	position: relative; bottom: 91px;
+	float: left;
+}
+*/
+
+#wys
+    {
+    background: url("http://dl.dropbox.com/u/106645823/facebook.png") no-repeat scroll 0 0 transparent;
+    padding: 10px;
+    width: 260px;
+    height:402px;
+    position: fixed;
+    margin-top: -200px; połowa wysokości panelu w górę  left: 0px;
+    top: 50%;
+    }
+    .zamknij
+    {
+    background-position: 0px 0px -242px 0px;
+    }
+/*body, html { font-size: 100%; padding: 0; margin: 0;}
+*/
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}
+
+
+@media all and (min-width: 481px) and (max-width: 959px) {
+	#right, .logo-desktop, .logo-phone, #top3 {
+		display: none;
+		}
+	#content-wrapper {
+		width: 100%;
+		}
+	#left {
+		width: 86%;
+		margin: 0 5%;
+		padding: 2%; 
+		}	
+	.extra, .logo-tablet {
+		display: inline-block
+		}	
+	.fluid-image {
+		margin: 1%;
+		width: 31.3333333333%;
+		}	
+	#top1, #top2, #top4 {
+		width: 33.33333333% 
+		}	
+	h1 img {
+		max-width:100%
+		}
+}	
+	
+@media all and (max-width: 481px) {
+	body {
+		background:url(img/background-pattern.jpg)
+		}
+	#gallery-wrapper div {
+		background: none;
+		width: 100%;
+		height: auto;
+		}
+	#gallery-wrapper div div.desc {
+		background: rgba(0,0,0,.5);
+		transform: none;
+		margin-top: 1%;
+		padding: 3% 0 0 0;
+		font-size: 1.4em;
+		}
+	.details, .logo-tablet, .logo-desktop {
+		display:none
+		}	
+	.logo-phone	{
+		display: inline-block;
+		margin: 1%;
+		}
+		
+	#content-wrapper {
+		width: 100%;
+		}
+	#left {
+		width: 96%;
+		padding: 2%;
+		}
+	h1 img {
+		max-width:100%
+		}
+	.fluid-image {
+		width:100%;
+		text-align:center;
+		margin-bottom: 2%;
+		}
+	#right {
+		width: auto;
+		}
+
+</style>
+
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+    $("#wys").css("left","-216px");
+    $("#wys").hover(
+    function () {
+    $("#wys").stop().animate({left: "0px"}, 400 );
+    $(this).addClass("zamknij");
+    }, function () {
+    $("#wys").stop().animate({left: "-216px"}, 400 );
+    $(this).removeClass("zamknij"); }
+    );
+    });
+    </script>
+<script src="js/modernizr.custom.js"></script>
+
+</head>
+
+<body>
+
+<div id="logo">
+	<a href="index.html"><img class="logo-desktop" src="zrodla/img/logo-desktop.png" alt="Hodowla Bokserów Exkalibur" /></a>
+    <a href="index.html"><img class="logo-tablet" src="zrodla/img/logo-tablet.png" alt="Hodowla Bokserów Exkalibur" /></a>
+    <a href="index.html"><img class="logo-phone" src="zrodla/img/logo-phone.png" alt="Hodowla Bokserów Exkalibur" /></a>
+</div>
+
+<div id="gallery-wrapper">
+	<div id="top1">
+    	<a href="ohodowli.html"><div class="desc">O hodowli<br/><br/><span class="details"> Początki hodowli Exkalibur sięgają 1982 roku, gdy... </span></div></a>
+    </div>
+   	<div id="top2">
+    	<a href="psy.html"><div class="desc">Psy<br/><br/> <span class="details">Duma i chwała naszej hodowli - znakomici reproduktorzy oraz zwyciężcy wielu nagród na wystawach bokserów w kraju i za granicą </span></div></a>
+    </div>
+    <div id="top3">
+    	<a href="suki.html"><div class="desc">Suki<br/><br/> <span class="details">Piękne i odpowiednio ułożone są matkami dla przyszłych pokoleń bokserów</span></div></a>
+    </div>
+    <div id="top4">
+    	<a href="szczenieta.html"><div class="desc">Szczenięta<br/><br/><span class="details"> Znajdź boksera dla siebie!  </span></div></a>
+    </div>
+</div>
+
+
+
+<div id="content-wrapper">
+  <section id="left">
+  
+   	<h1><img src="zrodla/img/h1-ohodowli.png" alt="O hodowli bokserów Exkalibur" /></h1>
+    
+    
+    <ul class="grid cs-style-2">
+				<li>
+					<figure>
+						<img src="zrodla/img/pedro_lider.jpg" alt="Pedro Lider">
+						<figcaption>
+							<h3>Pedro LIDER</h3>
+							<span><a href="gallery/ohodowli/ohodowligal.html">Galeria</a></span>
+						</figcaption>
+					</figure>
+				</li>
+				
+			</ul>
+
+       <p>	Początki naszego obcowania z tą rasą zaczynają się w 1982 roku. Wtedy to został zakupiony pierwszy rodowodowy bokser (spełnienie dziecięcych marzeń). Niestety, ze względu na umaszczenie, niehodowlany.</p>
+      
+	<p>	W  1983 roku zakupione zostały dwie miotowe siostry, które w tamtym czasie przynosiły nam wiele sukcesów wystawowych. Były nimi: żółta TERRA LIDER oraz pręgowana TAJGA LIDER. Obie sunie wydały ogólnie pięć miotów.</p>
+
+		<ul class="grid cs-style-2">
+				<li>
+					<figure>
+						<img src="zrodla/img/krolowa_kleopatra_nostrum.jpg" alt="Królowa Kleopatra">
+						<figcaption>
+							<h3>Królowa KLEOPATRA</h3>
+							<span><a href="gallery/ohodowli/ohodowligal.html">Galeria</a></span>
+						</figcaption>
+					</figure>
+				</li>
+				
+			</ul>
+
+<p>W roku 1986 dołączyła do nas malutka sunia,ponieważ była najmłodsza została nazwana "Maluszek" właściwa jej nazwa brzmiała KRÓLOWA KLEOPATRA NOSTRUM, fundament naszej hodowli. Była to sunia o wyjątkowej psychice i usposobieniu. Matka, babka, prababka i pra, pra...babka wielu polskich championów.
+W roku 1991 pozostała w hodowli HANZA EXKALIBUR Zwycięzca Młodzieży Polski, Champion Polski. Córka Królowej Kleopatry Nostrum, matka Italii Exkalibur.
+			<ul class="grid cs-style-2">
+				<li>
+					<figure>
+						<img src="zrodla/img/italia_ramka.jpg" alt="Italia Exkalibur">
+						<figcaption>
+							<h3>Italia Exkalibur</h3>
+							<span><a href="gallery/ohodowli/ohodowligal.html">Galeria</a></span>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+W roku 1993 decydujemy się na pozostawienie w hodowli kolejnej suki. Jest nią ITALIA EXKALIBUR. Uzyskała tytuły: Zwycięzca Młodzieży Polski oraz Champion Polski.</p>
+<p>Szybkie odejście ITALII, w kwietniu 1999 roku, przyśpieszyło podjęcie decyzji o nabyciu kolejnej suki OFRY LIDER, trafiła do naszej hodowli w czerwcu, pomimo, że oczekiwaliśmy już wówczas szczeniąt po wyhodowanej przez nas KORSYCE EXKALIBUR, która z kolei była córką ITALII EXKALIBUR.</p>
+			
+		<p>19 lipca 1999 roku, z wyczekiwanego przez nas miotu, ze skojarzenia KORSYKI EXKALIBUR i VASCO VAN DE HAZENBERG przyszedł na świat późniejszy zwycięzca wielu wystaw - ODWET EXKALIBUR – cudowny pies  pod względem charakteru i eksterieru. Znaleźć go można w wielu rodowodach. 
+
+<ul class="grid cs-style-2">
+				<li>
+					<figure>
+						<img src="zrodla/img/odwet.jpg" alt="Eliza EWENEMENT">
+						<figcaption>
+							<h3>Odwet Exkalibur</h3>
+							<span><a href="gallery/ohodowli/ohodowligal.html">Galeria</a></span>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		Potomstwo jego, jak i on sam, osiągało również wiele sukcesów wystawowych. 
+
+			
+		To ojciec, dziadek i pradziadek licznych championów i interchampionów.</p>
+<p>Następny rok 2000 przyniósł nam kolejną sunię AMANDĘ PARABELLUM.</p>
+<p>W roku 2001 zostawiliśmy sobie PLEJADĘ EXKALIBUR.</p>
+
+			<ul class="grid cs-style-2">
+				<li>
+					<figure>
+						<img src="zrodla/img/najhodowla_ramka.jpg" alt="Najlepsza hodowla Lublin 2003">
+						<figcaption>
+							<h3>Najlepsza Hodowla</h3>
+							<span><a href="gallery/ohodowli/ohodowligal.html">Galeria</a></span>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+
+<p>Rok 2002, 2003 i 2004 był dla nas pasmem sukcesów hodowlanych.  Nasz pies Odwet Exkalibur  uzyskał tytuł Njlepszego Reproduktora  na Klubowej Wystawie Bokserów w Łodzi w 2002 roku oraz w 2003 roku na Klubowej Wystawie Bokserów w Lublinie.  Klubowa Wystawa Bokserów w Lublinie przyniosła nam jeszcze jeden sukces, uzyskaliśmy tytuł  Najlepszej Hodowli. Tytuł ten potwierdziliśmy w roku następnym 2004 na Krajowej Wystawie Bokserów we Wrocławiu.</p>
+<p>W 2004 roku Plejada Exkalibur została pokryta Odwetem Exkalibur. Z tego skojarzenia zrodziła się UTOPIA EXKALIBUR. Oczarowała nas tak bardzo, że została w naszej hodowli. Była to sunia z mocną psychiką i wielkim wdziękiem jak jej przodkowie.</p>
+
+    
+			<ul class="grid cs-style-2">
+				<li>
+					<figure>
+						<img src="zrodla/img/dias_ramka.jpg" alt="Don Dias Exkalibur">
+						<figcaption>
+							<h3>Don Dias Exkalibur</h3>
+							<span><a href="gallery/ohodowli/ohodowligal.html">Galeria</a></span>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+<p>Boksery opisane powyżej, pomimo że nie ma ich już wśród nas, zawsze pozostają w naszych sercach, przypominając nam piękne chwile spędzone z nimi. Jesteśmy wdzięczni losowi, że dał nam możliwość obcowania z tą cudowna rasą.</p>
+			<ul class="grid cs-style-2">
+				<li>
+					<figure>
+						<img src="zrodla/img/eliza_ramka.jpg" alt="Eliza EWENEMENT">
+						<figcaption>
+							<h3>Eliza EWENEMENT</h3>
+							<span><a href="gallery/ohodowli/ohodowligal.html">Galeria</a></span>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+<p>Aktualnie w hodowli posiadamy syna Utopii Exkalibur, który jest wnukiem Odweta Exkalibur - DON DIASA EXKALIBUR, jest on kontynuacją naszej linii hodowlanej oraz posiadamy sunię ELIZĘ EWENEMENT.
+</p>
+
+
+    </section>
+<section id="right">
+    <a href="galeria.html"><img src="zrodla/img/h2.png" width="202" height="113" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />   <img src="zrodla/img/zdj3.jpg" width="169" height="231" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" /></a>
+    <img src="zrodla/img/h3.png" width="229" height="105" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />
+    <p>Hodowla Exkalibur</p>
+    <p>Sławomira i Sławomir Idzikowscy</p>
+    <p>Łódź, ul. Moskuliki 28</p>
+    <p><a href="mailto:adres e-mail">hodowla@exkalibur.pl</a></p>
+    <p>tel. 777 - 777 - 777</p>
+    <a href="http://www.boxerklub.pl/"><img id="zwiazek" src="zrodla/img/logo.gif" alt="Klub Boksera" />
+    <a href="http://www.zkwp.pl/zg/"><img id="zwiazek" src="zrodla/img/klub.jpg" alt="Związek Kynologiczny" />
+    </section>
+</div>
+
+ <div id="wys">
+
+<div id="wewnatrz" style="float: left; width: 216px; margin-left: 0px;"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FHodowla-Exkalibur%2F687444911306172&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:390px;" allowTransparency="true"></iframe></div> </div>
+
+<script src="js/toucheffects.js"></script>
+</body>
+</html>

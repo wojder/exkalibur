@@ -1,0 +1,280 @@
+@charset "utf-8";
+/*
+/* 
+ * HTML5 ✰ Kod podstawowy
+ *
+ * Poniższy kod jest efektem dogłębnych badań nad zgodnością stylów w różnych przeglądarkach. 
+ * Podziękowania i informacje o autorach zawarto w komentarzach do kodu. Szczególne podziękowania dla Nicolasa Gallaghera i Jonathana Neala,
+ * Kroca Camena oraz zespołu i społeczności programistów H5BP.
+ *
+ * Szczegółowe informacje o tym stylu CSS: h5bp.com/css
+ * 
+ * Modyfikacje dla programu Dreamweaver:
+ * 1. Podświetlenie komentarza wyłączone (przekształcone w komentarz)
+ * 2. Usunięta sekcja zapytań o media (wprowadzamy własne w osobnym pliku)
+ *
+ * ==|== normalizacja ==========================================================
+ */
+
+
+/* =============================================================================
+   Definicje właściwości „display” HTML5
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+/* =============================================================================
+   Podstawy
+   ========================================================================== */
+
+/*
+ * 1. Poprawka błędów zmiany rozmiaru tekstu w programie IE6/7, które występują, gdy właściwość „font-size” elementu BODY jest wyrażona w jednostkach „em”.
+ * 2. Wymuszenie pionowego paska przewijania w przeglądarkach innych niż IE.
+ * 3. Wyłącza automatyczne dopasowanie rozmiaru tekstu w systemie iOS po zmianie orientacji urządzenia, nie wyłącza jednak możliwości zmiany rozmiaru przez użytkownika: h5bp.com/g
+ */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+/* 
+ * Usuwa właściwość „text-shadow” (cień tekstu) w podświetleniu zaznaczenia: h5bp.com/i
+ * Te deklaracje dotyczące zaznaczenia muszą być osobno.
+ * Ponadto: intensywny różowy (jednak kolor tła można dostosować do własnego projektu)
+ */
+
+/* Dreamweaver: aby dostosować podświetlenie zaznaczenia, usuń znaki komentarza z następujących wierszy.
+ *::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+ *::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+ */
+
+/* =============================================================================
+   Łącza
+   ========================================================================== */
+
+a { color: #00e; }
+a:visited { color: #551a8b; }
+a:hover { color: #06e; }
+a:focus { outline: thin dotted; }
+
+/* Zwiększenie czytelności elementu aktywnego i elementu, nad którym znajduje się kursor myszy (hover): h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+   Typografia
+   ========================================================================== */
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* Ponowna deklaracja rodziny czcionek o stałej szerokości (monospace): h5bp.com/j */
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* Zwiększenie czytelności tekstu preformatowanego (znacznik PRE) we wszystkich przeglądarkach. */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* Określenie położenia indeksu górnego („sub”) i dolnego („sup”) bez zmiany wysokości wiersza (line-height): h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+
+/* =============================================================================
+   Listy
+   ========================================================================== */
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+
+/* =============================================================================
+   Zawartość osadzona
+   ========================================================================== */
+
+/*
+ * 1. Poprawa jakości obrazu przy skalowaniu w przeglądarce IE7: h5bp.com/d
+ * 2. Usunięcie odstępu między obrazami i krawędziami w kontenerach obrazów: h5bp.com/e 
+ */
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+/*
+ * Poprawka błędu powodującego, że w programie IE9 nie jest ukrywana zawartość nadmiarowa (overflow). 
+ */
+
+svg:not(:root) { overflow: hidden; }
+
+
+/* =============================================================================
+   Cyfry
+   ========================================================================== */
+
+figure { margin: 0; }
+
+
+/* =============================================================================
+   Formularze
+   ========================================================================== */
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* Wskazuje, że etykieta „label” będzie uaktywniać powiązany z nią element formularza. */
+label { cursor: pointer; }
+
+/* 
+ * 1. Poprawka braku dziedziczenia koloru w programie IE6/7/8/9. 
+ * 2. Poprawka błędów wyświetlania wyrównania w programie IE6/7. 
+ */
+
+legend { border: 0; *margin-left: -7px; padding: 0; }
+
+/*
+ * 1. Poprawka braku dziedziczenia rozmiaru czcionki (font-size) we wszystkich przeglądarkach.
+ * 2. Usunięcie marginesów w przeglądarkach FF3/4 S5 Chrome.
+ * 3. Definicja spójnego wyrównywania w pionie we wszystkich przeglądarkach.
+ */
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/*
+ * 1. Definicja wysokości wiersza (line-height) na wartość „normal”, tak jak w przeglądarkach FF3/4 (ustawiana z parametrem „!important” w arkuszu stylów UA).
+ * 2. Poprawka błędu wyświetlania wewnętrznych odstępów w programie IE6/7.
+ */
+
+button, input { line-height: normal; *overflow: visible; }
+
+/*
+ * Przywrócenie wewnętrznych odstępów w tabeli (element „table”), aby uniknąć nakładania się i problemów ze znakami odstępów w programie IE6/7.
+ */
+
+table button, table input { *overflow: auto; }
+
+/*
+ * 1. Wyświetlanie kursora w kształcie rączki dla elementów formularza, które można kliknąć.
+ * 2. Umożliwienie nadawania stylów klikalnym elementom formularzy w systemie iOS.
+ */
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+/*
+ * Spójny wygląd i sterowanie rozmiarem pól blokowych
+ */
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/* 
+ * Usunięcie wewnętrznego odstępu i krawędzi w przeglądarce FF3/4: h5bp.com/l 
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* 
+ * 1. Usunięcie domyślnego pionowego paska przewijania w przeglądarkach IE6/7/8/9. 
+ * 2. Zmiana rozmiaru będzie możliwa tylko w pionie.
+ */
+
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+
+/* Kolory walidacji formularza */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+
+/* =============================================================================
+   Tabele
+   ========================================================================== */
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+
+/* ==|== style podstawowe =====================================================
+   Autor: 
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==|== niesemantyczne klasy pomocnicze ========================================
+   Własne style należy zdefiniować przed tą sekcją.
+   ========================================================================== */
+
+/* Zastępowanie obrazu */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+
+/* Ukrywanie przed czytnikami ekranu i przeglądarkami: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Ukrywanie treści tylko na ekranie, ale udostępnianie jej czytnikom ekranu: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Rozszerza klasę .visuallyhidden, aby umożliwić uaktywnienie elementu podczas nawigacji za pomocą klawiatury: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Ukrycie treści zarówno przed wyświetlaniem na ekranie, jak i przed czytnikami ekranu, ale przy zachowaniu układu */
+.invisible { visibility: hidden; }
+
+/* Utrzymanie elementów float: h5bp.com/q */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/* ==|== style dotyczące drukowania =======================================================
+   Style dotyczące drukowania.
+   Wprowadzone w wierszu dla uniknięcia niezbędnego połączenia HTTP: h5bp.com/r
+   ========================================================================== */
+ 
+ @media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Czerń jest drukowana szybciej: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Nie wyświetlaj łączy do obrazów, łączy wewnętrznych ani łączy javascript */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}

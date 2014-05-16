@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Responsive text</title>
+<meta name="viewport" content="width=device-width" />
+<script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
+<style type="text/css">
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(img/background-pattern.jpg) repeat top left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 0.9em
+	}
+#logo {
+	width: 100%;
+	text-align: center;
+	margin-bottom: -25px; 
+	}	
+a {
+	text-decoration:none;
+	color: #fff;
+	}	
+#logo img {
+	max-width: 100%;
+	}
+#gallery-wrapper {
+	width: 100%;
+	padding: 6px 0;
+	background: rgba(162,171,157,.6);
+	overflow:hidden;	
+	}
+#top1, #top2, #top3, #top4 {
+	height: 350px;
+	float: left;
+	width: 25%;
+	}
+#top1 {
+	background:url(zrodla/img/top1.jpg) no-repeat top center;}
+#top2 {
+	background:url(zrodla/img/top2.jpg) no-repeat top center;}
+#top3 {
+	background:url(zrodla/img/top3.jpg) no-repeat top center;}
+#top4 {
+	background:url(zrodla/img/top4.jpg) no-repeat top center;}
+div.desc {
+	height: 140px;
+	text-align: center;
+	padding: 5px 15px;
+	background: rgba(51,51,51,.7);
+	font-size: 1.2em;
+	color: #fff;
+	margin-top: 320px;
+	-webkit-transition: all .3s ease-out 0s;
+	-moz-transition: all .3s ease-out 0s;
+	-ms-transition: all .3s ease-out 0s;
+	-o-transition: all .3s ease-out 0s;
+	transition: all .3s ease-out 0s;
+	cursor:pointer;
+	}
+div.desc:hover {
+	margin-top: 210px;
+	}
+#content-wrapper {
+	width: 960px;
+	margin: 30px auto;
+	}
+#left {
+	padding: 15px;
+	float: left;
+	width: 630px;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #fff;
+	background: rgba(109,144,82,.8)
+	}
+#right {
+	text-align: center;
+	padding: 15px;
+	float: right;
+	width: 240px;
+	background: rgba(160,175,156,.8);
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #fff;
+	}
+	
+.fluid-image {
+	margin-right: 20px;
+	float: left;}
+.extra, .logo-tablet, .logo-phone {
+	display: none;
+	}
+@media all and (min-width: 481px) and (max-width: 959px) {
+	#right, .logo-desktop, .logo-phone, #top3 {
+		display: none;
+		}
+	#content-wrapper {
+		width: 100%;
+		}
+	#left {
+		width: 86%;
+		margin: 0 5%;
+		padding: 2%; 
+		}	
+	.extra, .logo-tablet {
+		display: inline-block
+		}	
+	.fluid-image {
+		margin: 1%;
+		width: 31.3333333333%;
+		}	
+	#top1, #top2, #top4 {
+		width: 33.33333333% 
+		}	
+	h1 img {
+		max-width:100%
+		}
+}	
+	
+@media all and (max-width: 481px) {
+	body {
+		background:url(img/background-pattern.jpg)
+		}
+	#gallery-wrapper div {
+		background: none;
+		width: 100%;
+		height: auto;
+		}
+	#gallery-wrapper div div.desc {
+		background: rgba(0,0,0,.5);
+		transform: none;
+		margin-top: 1%;
+		padding: 3% 0 0 0;
+		font-size: 1.4em;
+		}
+	.details, .logo-tablet, .logo-desktop {
+		display:none
+		}	
+	.logo-phone	{
+		display: inline-block;
+		margin: 1%;
+		}
+		
+	#content-wrapper {
+		width: 100%;
+		}
+	#left {
+		width: 96%;
+		padding: 2%;
+		}
+	h1 img {
+		max-width:100%
+		}
+	.fluid-image {
+		width:100%;
+		text-align:center;
+		margin-bottom: 2%;
+		}
+	#right {
+		width: auto;
+}
+
+.hs-wrapper{
+	width: 333px;
+	height: 500px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.hs-wrapper img{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	-webkit-animation: showMe 0.8s linear infinite 0s forwards;
+	-moz-animation: showMe 0.8s linear infinite 0s forwards;
+	-o-animation: showMe 0.8s linear infinite 0s forwards;
+	-ms-animation: showMe 0.8s linear infinite 0s forwards;
+	animation: showMe 0.8s linear infinite 0s forwards;
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	animation-play-state: paused;	
+}
+.hs-wrapper img:nth-child(1){
+	z-index: 9;
+}
+.hs-wrapper img:nth-child(2){
+    -webkit-animation-delay: 0.1s;
+	-moz-animation-delay: 0.1s;
+	-o-animation-delay: 0.1s;
+	-ms-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+	z-index: 8;
+}
+.hs-wrapper img:nth-child(3){
+    -webkit-animation-delay: 0.2s;
+	-moz-animation-delay: 0.2s;
+	-o-animation-delay: 0.2s;
+	-ms-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+	z-index: 7;
+}
+.hs-wrapper img:nth-child(4){
+    -webkit-animation-delay: 0.3s;
+	-moz-animation-delay: 0.3s;
+	-o-animation-delay: 0.3s;
+	-ms-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+	z-index: 6;
+}
+.hs-wrapper img:nth-child(5){
+    -webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.4s;
+	-o-animation-delay: 0.4s;
+	-ms-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+	z-index: 5;
+}
+.hs-wrapper img:nth-child(6){
+    -webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	-ms-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	z-index: 4;
+}
+.hs-wrapper img:nth-child(7){
+    -webkit-animation-delay: 0.6s;
+	-moz-animation-delay: 0.6s;
+	-o-animation-delay: 0.6s;
+	-ms-nimation-delay: 0.6s;
+	animation-delay: 0.6s;
+	z-index: 3;
+}
+.hs-wrapper img:nth-child(8){
+    -webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	-o-animation-delay: 0.7s;
+	-ms-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+	z-index: 2;
+}
+.hs-wrapper:hover img{
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	-o-animation-play-state: running;
+	-ms-animation-play-state: running;
+	animation-play-state: running;
+}
+.hs-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 500;
+	background: rgba(0,0,0,0.6);
+	box-shadow: 0 0 0 0 rgba(255,255,255,0.3) inset;
+	pointer-events: none;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.hs-overlay span{
+	display: block;
+	padding: 20px;
+	position: absolute;
+	width: 293px;
+	left: 20px;
+	top: 200px;
+	color: #fff;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	font-size: 38px;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	text-align: center;
+	pointer-events: none;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.hs-wrapper:hover .hs-overlay{
+	opacity: 1;
+	box-shadow: 0 0 0 5px rgba(255,255,255,0.3) inset;
+}
+
+@-webkit-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-moz-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-o-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@-ms-keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+@keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+
+
+
+
+</style>
+    
+</head>
+
+<body>
+
+<div id="logo">
+	<a href="index.html"><img class="logo-desktop" src="zrodla/img/logo-desktop.png" alt="" /></a>
+    <a href="index.html"><img class="logo-tablet" src="zrodla/img/logo-tablet.png" alt="" /></a>
+    <a href="index.html"><img class="logo-phone" src="zrodla/img/logo-phone.png" alt="" /></a>
+</div>
+
+<div id="gallery-wrapper">
+	<div id="top1">
+    	<a href="ohodowli.html"><div class="desc">O hodowli<br/><br/><span class="details"> Początki hodowli Exkalibur sięgają 1982 roku, gdy... </span></div></a>
+    </div>
+   	<div id="top2">
+    	<a href="psy.html"><div class="desc">Psy<br/><br/> <span class="details">Duma i chwała naszej hodowli - znakomici reproduktorzy oraz zwyciężcy wielu nagród na wystawach bokserów w kraju i za granicą </span></div></a>
+    </div>
+    <div id="top3">
+    	<a href="suki.html"><div class="desc">Suki<br/><br/> <span class="details">hngnhgsjnsj rt  rtthrht odvmfgjd djjd maa  jsdfaas </span></div></a>
+    </div>
+    <div id="top4">
+    	<a href="szczenieta.html"><div class="desc">Szczenięta<br/><br/><span class="details"> Znajdź boksera dla siebie!  </span></div></a>
+    </div>
+</div>
+
+
+<div id="content-wrapper">
+  <section id="left">
+  
+   	<h1><img src="zrodla/img/h1-ohodowli.png" alt="" /></h1>
+    
+    <div class="hs-wrapper">
+ 
+    <img src="images/1.jpg" alt="image01"/>
+    <img src="images/2.jpg" alt="image02"/>
+    <img src="images/3.jpg" alt="image03"/>
+    <img src="images/4.jpg" alt="image04"/>
+    <img src="images/5.jpg" alt="image05"/>
+    <img src="images/6.jpg" alt="image06"/>
+    <img src="images/7.jpg" alt="image07"/>
+    <img src="images/8.jpg" alt="image08"/>
+     
+    <div class="hs-overlay">
+        <span>Summer <strong>2012</strong></span>
+    </div>
+     
+</div>
+    <!--<div class="fluid-image"><a href="#"><img src="zrodla/img/pedro_lider.jpg" width="100%" alt="" /></a>
+	</div>-->
+       <p>	Początki naszego obcowania z tą rasą zaczynają się w 1982 roku. Wtedy to został zakupiony pierwszy rodowodowy bokser (spełnienie dziecięcych marzeń). Niestety, ze względu na umaszczenie, niehodowlany.</p>
+      
+	<p>	W  1983 roku zakupione zostały dwie miotowe siostry, które w tamtym czasie przynosiły nam wiele sukcesów wystawowych. Były nimi: żółta TERRA LIDER oraz pręgowana TAJGA LIDER. Obie sunie wydały ogólnie pięć miotów.</p>
+
+		<div class="fluid-image"><a href="#"><img src="zrodla/img/krolowa_kleopatra_nostrum.jpg" width="100%" alt="" /></a>
+		</div>
+
+<p>W roku 1986 dołączyła do nas malutka sunia,ponieważ była najmłodsza została nazwana "Maluszek" właściwa jej nazwa brzmiała KRÓLOWA KLEOPATRA NOSTRUM, fundament naszej hodowli. Była to sunia o wyjątkowej psychice i usposobieniu. Matka, babka, prababka i pra, pra...babka wielu polskich championów.
+W roku 1991 pozostała w hodowli HANZA EXKALIBUR Zwycięzca Młodzieży Polski, Champion Polski. Córka Królowej Kleopatry Nostrum, matka Italii Exkalibur.
+<div class="fluid-image"><a href="#"><img src="zrodla/img/italia_exkalibur.jpg" width="100%" alt="" /></a>
+</div>W roku 1993 decydujemy się na pozostawienie w hodowli kolejnej suki. Jest nią ITALIA EXKALIBUR. Uzyskała tytuły: Zwycięzca Młodzieży Polski oraz Champion Polski.</p>
+<p>Szybkie odejście ITALII, w kwietniu 1999 roku, przyśpieszyło podjęcie decyzji o nabyciu kolejnej suki OFRY LIDER, trafiła do naszej hodowli w czerwcu, pomimo, że oczekiwaliśmy już wówczas szczeniąt po wyhodowanej przez nas KORSYCE EXKALIBUR, która z kolei była córką ITALII EXKALIBUR.</p>
+<div class="fluid-image"><a href="#"><img src="zrodla/img/odwet_exkalibur.jpg" width="100%" alt="" /></a>
+</div><p>19 lipca 1999 roku, z wyczekiwanego przez nas miotu, ze skojarzenia KORSYKI EXKALIBUR i VASCO VAN DE HAZENBERG przyszedł na świat późniejszy zwycięzca wielu wystaw - ODWET EXKALIBUR – cudowny pies  pod względem charakteru  i eksterieru. Znaleźć go można w wielu rodowodach. Potomstwo jego, jak i on sam, osiągało również wiele sukcesów wystawowych. To ojciec, dziadek i pradziadek licznych championów i interchampionów.</p>
+<p>Następny rok 2000 przyniósł nam kolejną sunię AMANDĘ PARABELLUM.</p>
+<p>W roku 2001 zostawiliśmy sobie PLEJADĘ EXKALIBUR.</p>
+
+<div class="fluid-image"><a href="#"><img src="zrodla/img/najlepsza_hodowla.jpg" width="100%" alt="" /></a>
+</div>
+
+<p>Rok 2002, 2003 i 2004 był dla nas pasmem sukcesów hodowlanych.  Nasz pies Odwet Exkalibur  uzyskał tytuł Njlepszego Reproduktora  na Klubowej Wystawie Bokserów w Łodzi w 2002 roku oraz w 2003 roku na Klubowej Wystawie Bokserów w Lublinie.  Klubowa Wystawa Bokserów w Lublinie przyniosła nam jeszcze jeden sukces, uzyskaliśmy tytuł  Najlepszej Hodowli. Tytuł ten potwierdziliśmy w roku następnym 2004 na Krajowej Wystawie Bokserów we Wrocławiu.</p>
+<p>W 2004 roku Plejada Exkalibur została pokryta Odwetem Exkalibur. Z tego skojarzenia zrodziła się UTOPIA EXKALIBUR. Oczarowała nas tak bardzo, że została w naszej hodowli. Była to sunia z mocną psychiką i wielkim wdziękiem jak jej przodkowie.</p>
+<p>Boksery opisane powyżej, pomimo że nie ma ich już wśród nas, zawsze pozostają w naszych sercach, przypominając nam piękne chwile spędzone z nimi. Jesteśmy wdzięczni losowi, że dał nam możliwość obcowania z tą cudowna rasą.</p>
+    <p>Aktualnie w hodowli posiadamy syna Utopii Exkalibur, który jest wnukiem Odweta Exkalibur, - DON DIASA EXKALIBUR, jest on kontynuacją naszej linii hodowlanej oraz posiadamy sunię ELIZĘ EWENEMENT.
+</p>
+<div class="fluid-image"><a href="#"><img src="zrodla/img/zdj1.jpg" width="100%" alt="" /></a>
+</div>
+<div class="fluid-image"><a href="#"><img src="zrodla/img/eliza2.jpg" width="100%" alt="" /></a>
+</div>
+<div class="fluid-image extra"><img src="zrodla/img/zdj2.jpg" width="100%" alt="" /></div>
+
+    </section>
+
+	<section id="right">
+    
+    <a href="Gallery/index.html"><img src="zrodla/img/h2.png" width="202" height="113" alt="" />
+    <p>Obraz znaczy więcej niż 1000 słów... Sprawdź historię hodowli oraz najnowsze zdjęcia naszych bokserów</p>
+    <img src="zrodla/img/zdj3.jpg" width="169" height="231" alt="" /></a>
+    <img src="zrodla/img/h3.png" width="229" height="105" alt="" />
+    <p>Hodowla Exkalibur</p>
+    <p>Sławomira i Sławomir Idzikowscy</p>
+    <p>Łódź, ul. Moskuliki 28</p>
+    <p><a href="mailto:adres e-mail">hodowla@exkalibur.pl</a></p>
+    <p>tel. 777 - 777 - 777</p>
+    
+    </section>
+</div>
+</body>
+</html>
