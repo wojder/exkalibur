@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: url(img/background-pattern.jpg) repeat top left;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'ubuntu', "Times New Roman", Times, serif;
 	font-size: 0.9em
 	}
 #logo {
@@ -92,6 +92,21 @@ div.desc:hover {
 .extra, .logo-tablet, .logo-phone {
 	display: none;
 	}
+
+#wys {
+    background: url("http://dl.dropbox.com/u/106645823/facebook.png") no-repeat scroll 0 0 transparent;
+    padding: 10px;
+    width: 260px;
+    height:402px;
+    position: fixed;
+    margin-top: -200px; left: 0px;
+    top: 50%;
+    }
+
+.zamknij {
+    background-position: 0px 0px -242px 0px;
+    }
+
 @media all and (min-width: 481px) and (max-width: 959px) {
 	#right, .logo-desktop, .logo-phone, #top3 {
 		display: none;
@@ -160,10 +175,27 @@ div.desc:hover {
 		}
 	#right {
 		width: auto;
-		
 		}
-		
+
+	#wys {
+		display: none;
+	}
+
 </style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+    $("#wys").css("left","-216px");
+    $("#wys").hover(
+    function () {
+    $("#wys").stop().animate({left: "0px"}, 400 );
+    $(this).addClass("zamknij");
+    }, function () {
+    $("#wys").stop().animate({left: "-216px"}, 400 );
+    $(this).removeClass("zamknij"); }
+    );
+    });
+    </script>
     
 </head>
 
@@ -183,13 +215,12 @@ div.desc:hover {
     	<a href="psy.html"><div class="desc">Psy<br/><br/> <span class="details">Duma i chwała naszej hodowli - znakomici reproduktorzy oraz zwyciężcy wielu nagród na wystawach bokserów w kraju i za granicą </span></div></a>
     </div>
     <div id="top3">
-    	<a href="suki.html"><div class="desc">Suki<br/><br/> <span class="details">hngnhgsjnsj rt  rtthrht odvmfgjd djjd maa  jsdfaas </span></div></a>
+    	<a href="suki.html"><div class="desc">Suki<br/><br/> <span class="details">Piękne i odpowiednio ułożone są matkami dla przyszłych pokoleń bokserów</span></div></a>
     </div>
     <div id="top4">
     	<a href="szczenieta.html"><div class="desc">Szczenięta<br/><br/><span class="details"> Znajdź boksera dla siebie!  </span></div></a>
     </div>
 </div>
-
 
 <div id="content-wrapper">
   <section id="left">
@@ -236,17 +267,19 @@ WYSTAWY:
 
 	<section id="right">
     
-    <a href="galeria.html"><img src="zrodla/img/h2.png" width="202" height="113" alt="" />
-    <p>Obraz znaczy więcej niż 1000 słów... Sprawdź historię hodowli oraz najnowsze zdjęcia naszych bokserów</p>
-    <img src="zrodla/img/zdj3.jpg" width="169" height="231" alt="" /></a>
-    <img src="zrodla/img/h3.png" width="229" height="105" alt="" />
-    <p>Hodowla Exkalibur</p>
-    <p>Sławomira i Sławomir Idzikowscy</p>
-    <p>Łódź, ul. Moskuliki 28</p>
+    <a href="galeria.html"><img src="zrodla/img/h2.png" width="202" height="113" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />   <img src="zrodla/img/zdj3.jpg" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" /></a>
+    <img src="zrodla/img/h3.png" width="229" height="105" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />
     <p><a href="mailto:adres e-mail">hodowla@exkalibur.pl</a></p>
-    <p>tel. 777 - 777 - 777</p>
-    
+    <p>tel. 601-151-692</p>
+    <p>tel. 695-602-820</p>
+
+    <a href="http://www.boxerklub.pl/"><img id="zwiazek" src="zrodla/img/logo.gif" alt="Klub Boksera" />
+    <a href="http://www.zkwp.pl/zg/"><img id="zwiazek" src="zrodla/img/klub.jpg" alt="Związek Kynologiczny" />
     </section>
-</div>
+ </div> 
+ <div id="wys">
+ 
+<div id="wewnatrz" style="float: left; width: 216px; margin-left: 0px;"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FHodowla-Exkalibur%2F687444911306172&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:390px;" allowTransparency="true"></iframe></div> </div>
+
 </body>
 </html>

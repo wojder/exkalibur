@@ -67,7 +67,7 @@
 .es-nav span:hover{
 	opacity:1.0;
 }
-@media all and (max-width: 481px) {
+@media all and (max-width: 801px) {
 .es-carousel-wrapper {
 	display: none !important
 }

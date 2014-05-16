@@ -95,7 +95,7 @@ h2 {
 	margin:0px 25px 30px 25px;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 801px) {
 	#rodo {
 		display: none
 	}
