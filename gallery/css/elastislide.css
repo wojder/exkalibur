@@ -16,9 +16,7 @@
 	overflow:hidden;
 	background:#000;
 }
-.es-carousel ul{
-	display:none;
-}
+
 .es-carousel ul li{
 	height:100%;
 	float:left;
@@ -71,6 +69,6 @@
 }
 @media all and (max-width: 481px) {
 .es-carousel-wrapper {
-	display: none;
+	display: none !important
 }
 }
