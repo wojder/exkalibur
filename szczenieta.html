@@ -93,6 +93,21 @@ div.desc:hover {
 .extra, .logo-tablet, .logo-phone {
 	display: none;
 	}
+
+#wys {
+    background: url("http://dl.dropbox.com/u/106645823/facebook.png") no-repeat scroll 0 0 transparent;
+    padding: 10px;
+    width: 260px;
+    height:402px;
+    position: fixed;
+    margin-top: -200px; left: 0px;
+    top: 50%;
+    }
+
+.zamknij {
+    background-position: 0px 0px -242px 0px;
+    }
+
 @media all and (min-width: 481px) and (max-width: 959px) {
 	#right, .logo-desktop, .logo-phone, #top3 {
 		display: none;
@@ -161,10 +176,30 @@ div.desc:hover {
 		}
 	#right {
 		width: auto;
-		
 		}
-		
+
+	#wys {
+		display: none;
+	}
+
 </style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+    $("#wys").css("left","-216px");
+    $("#wys").hover(
+    function () {
+    $("#wys").stop().animate({left: "0px"}, 400 );
+    $(this).addClass("zamknij");
+    }, function () {
+    $("#wys").stop().animate({left: "-216px"}, 400 );
+    $(this).removeClass("zamknij"); }
+    );
+    });
+    </script>
+    
+</head>
+
     
 </head>
 
@@ -196,25 +231,27 @@ div.desc:hover {
   <section id="left">
   
    	<h1><img src="zrodla/img/h1-szczenieta.png" alt=Szczenięta Hodowla Exkalibur" /></h1>
-    <p>Sizzle ullamcorper. Aliquam sagittis massa owned maurizzle. Vestibulizzle ante boofron primis break it down faucibizzle phat luctizzle et ultricizzle go to hizzle cubilia Curae; Aenizzle shiz. Pellentesque bling bling morbi tristique boofron izzle netizzle go to hizzle sheezy famizzle izzle ma nizzle egestizzle. Cool tempor yo mamma velit. Crazy pimpin' fo. Ma nizzle tortor enim, scelerisque ac, dignissim a, yo the bizzle, arcu. Things gizzle. Donizzle fermentum, we gonna chung at pharetra we gonna chung, yo mamma shizznit stuff own yo', nizzle nizzle urna own yo' quizzle nibh. Sheezy tellus neque, shizzle my nizzle crocodizzle its fo rizzle, ornare stuff, vulputate yo mamma, leo. 
-     Maurizzle dope urna, mofo izzle, pot venenatizzle, sodalizzle pimpin', sure. Etizzle gravida.</p>
-    <p>Crazy crunk urna, pimpin' dope, tristique funky fresh, its fo rizzle the bizzle, hizzle. Donec pharetra, nisi you son of a bizzle facilisizzle malesuada, fizzle yippiyo that's the shizzle velizzle, break yo neck, yall check out this libero erat izzle daahng dawg. </p>
+    <p>Informacje na temat oczekiwanego miotu dostępne pod numerem telefonu 601-151-692 lub 695-602-820.</p>
 <div class="fluid-image"><a href="gallery/szczenieta/szczenietagal.html"><img src="zrodla/img/szcze1.jpg" width="100%" alt="Boksery Szczenięta Hodowla Exkalibur" /></a>
 </div>
 <div class="fluid-image"><a href="gallery/szczenieta/szczenietagal.html"><img src="zrodla/img/szcze2.jpg" width="100%" alt="Boksery Szczenięta Hodowla Exkalibur" /></a>
 </div>
     </section>
-<section id="right">
-    <a href="galeria.html"><img src="zrodla/img/h2.png" width="202" height="113" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />   <img src="zrodla/img/zdj3.jpg" width="169" height="231" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" /></a>
+
+	<section id="right">
+    
+    <a href="galeria.html"><img src="zrodla/img/h2.png" width="202" height="113" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />   <img src="zrodla/img/zdj3.jpg" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" /></a>
     <img src="zrodla/img/h3.png" width="229" height="105" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />
-    <p>Hodowla Exkalibur</p>
-    <p>Sławomira i Sławomir Idzikowscy</p>
-    <p>Łódź, ul. Moskuliki 28</p>
     <p><a href="mailto:adres e-mail">hodowla@exkalibur.pl</a></p>
-    <p>tel. 777 - 777 - 777</p>
+    <p>tel. 601-151-692</p>
+    <p>tel. 695-602-820</p>
+
     <a href="http://www.boxerklub.pl/"><img id="zwiazek" src="zrodla/img/logo.gif" alt="Klub Boksera" />
     <a href="http://www.zkwp.pl/zg/"><img id="zwiazek" src="zrodla/img/klub.jpg" alt="Związek Kynologiczny" />
     </section>
+ </div> 
+ <div id="wys">
+
 </div>
 </body>
 </html>
