@@ -86,13 +86,30 @@ div.desc:hover {
 	line-height: 1.5em;
 	color: #fff;
 	}
-	
+#kontakt {
+	margin-top: 3%
+}	
 .fluid-image {
-	margin-right: 20px;
+ 	margin-right: 20px;
 	float: left;}
 .extra, .logo-tablet, .logo-phone {
 	display: none;
 	}
+
+#wys {
+    background: url("http://dl.dropbox.com/u/106645823/facebook.png") no-repeat scroll 0 0 transparent;
+    padding: 10px;
+    width: 260px;
+    height:402px;
+    position: fixed;
+    margin-top: -200px; left: 0px;
+    top: 50%;
+    }
+
+.zamknij {
+    background-position: 0px 0px -242px 0px;
+    }
+
 @media all and (min-width: 481px) and (max-width: 959px) {
 	#right, .logo-desktop, .logo-phone, #top3 {
 		display: none;
@@ -118,9 +135,7 @@ div.desc:hover {
 	h1 img {
 		max-width:100%
 		}
-	#wys {display: none;}
 }	
-
 	
 @media all and (max-width: 481px) {
 	body {
@@ -164,10 +179,27 @@ div.desc:hover {
 	#right {
 		width: auto;
 		}
-		#wys {display: none;}
-		
+
+	#wys {
+		display: none;
+	}
+
 </style>
-    
+ 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+    $("#wys").css("left","-216px");
+    $("#wys").hover(
+    function () {
+    $("#wys").stop().animate({left: "0px"}, 400 );
+    $(this).addClass("zamknij");
+    }, function () {
+    $("#wys").stop().animate({left: "-216px"}, 400 );
+    $(this).removeClass("zamknij"); }
+    );
+    });
+    </script>   
 </head>
 
 <body>
@@ -183,7 +215,7 @@ div.desc:hover {
     	<a href="ohodowli.html"><div class="desc">O hodowli<br/><br/><span class="details"> Początki hodowli Exkalibur sięgają 1982 roku, gdy... </span></div></a>
     </div>
    	<div id="top2">
-    	<a href="psy.html"><div class="desc">Psy<br/><br/> <span class="details">Duma i chwała naszej hodowli - znakomici reproduktorzy oraz zwyciężcy wielu nagród na wystawach bokserów w kraju i za granicą </span></div></a>
+    	<a href="psy.html"><div class="desc">Psy<br/><br/> <span class="details">Duma i chwała naszej hodowli - zwycięzcy wielu wystaw krajowych, międzynarodowych i zagranicznych</span></div></a>
     </div>
     <div id="top3">
     	<a href="suki.html"><div class="desc">Suki<br/><br/> <span class="details">Piękne i odpowiednio ułożone są matkami dla przyszłych pokoleń bokserów</span></div></a>
@@ -198,14 +230,14 @@ div.desc:hover {
 <div id="content-wrapper">
   <section id="left">
   
-   	<h1><img src="zrodla/img/h1big-dias.png" alt="" /></h1>
-    <div class="fluid-image"><a href=gallery/dias/diasgal.html><img src="zrodla/img/zdj1.jpg" width="100%" alt="" /></a>
+   	<h1><img src="zrodla/img/h1-dias.png" alt="Don Dias Exkalibur" /></h1>
+    <div class="fluid-image"><a href=gallery/dias/diasgal.html><img src="zrodla/img/zdj1.jpg" width="100%" alt="Don Dias Exkalibur" /></a>
 </div>
 <div class="fluid-image"><a href=gallery/dias/diasgal.html><img src="zrodla/img/zdj2.jpg" width="100%" alt="" /></a>
 </div>
-<br />
+<br /><br />
 
-04.05.2009 r.<br />
+04.05.2009 r.<br/><br/>
 Ch.PL<br />
 Zwycięzca Polski  <br />
 Zwycięzca Rasy<br />
@@ -218,21 +250,24 @@ Wystawy:<br />
 - CWC - Wrocław 2013<br />
 - Zwycięzca Nocnej Gali Bokserów - Wrocław 2013<br />
 - Zw. Polski, Zw.Rasy (BOB), CACIB, CWC - Poznań 2013
-   <br />
+   <hr/>
 
 <div class="fluid-image extra"><img src="zrodla/img/zdj2.jpg" width="100%" alt="" /></div>
     </section>
 	<section id="right">
     
-    <a href="galeria.html"><img src="zrodla/img/h2.png" width="202" height="113" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />   <img src="zrodla/img/zdj3.jpg" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" /></a>
-    <img src="zrodla/img/h3.png" width="229" height="105" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />
-    <p><a href="mailto:adres e-mail">hodowla@exkalibur.pl</a></p>
+    <a href="galeria.html"><img src="zrodla/img/h2.png" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />   <img src="zrodla/img/zdj3.jpg" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" /></a>
+    <img id="kontakt" src="zrodla/img/h3.png" alt="Galeria Zdjęć Hodowla Bokserów Exkalibur" />
+    <p><a href="mailto:hodowla@exkalibur.pl">hodowla@exkalibur.pl</a></p>
     <p>tel. 601-151-692</p>
     <p>tel. 695-602-820</p>
 
     <a href="http://www.boxerklub.pl/"><img id="zwiazek" src="zrodla/img/logo.gif" alt="Klub Boksera" />
     <a href="http://www.zkwp.pl/zg/"><img id="zwiazek" src="zrodla/img/klub.jpg" alt="Związek Kynologiczny" />
     </section>
-</div>
+<div id="wys">
+
+<div id="wewnatrz" style="float: left; width: 216px; margin-left: 0px;"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FHodowla-Exkalibur%2F687444911306172&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:390px;" allowTransparency="true"></iframe></div> </div>
+
 </body>
 </html>
