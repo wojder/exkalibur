@@ -20,9 +20,9 @@ body{
 	-moz-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
-a{
-	color: #555;
-	text-decoration: none;
+a {
+	color: #555 !important;
+	text-decoration: none !important
 }
 .clr {
 	clear: both;

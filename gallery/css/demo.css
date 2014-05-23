@@ -17,8 +17,8 @@ body{
 	max-width: 100%;
 	}
 
-a{
-	color:#ddd;
+h2 a{
+	color:#ddd !important;
 	text-decoration:none;
 }
 a:hover{
