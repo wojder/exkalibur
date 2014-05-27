@@ -1,0 +1,4 @@
+Order deny,allow
+ExpiresActive on
+ExpiresDefault A2592000
+DirectoryIndex index.html

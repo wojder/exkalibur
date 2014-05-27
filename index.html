@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+<html manifest="cache.appcache">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="http://fonts.googleapis.com/css?family=FONTNAME" rel="stylesheet" type="text/css" />
@@ -7,24 +8,16 @@
 <meta name="viewport" content="width=device-width" />
 <link rel="shortcut icon" type="image/png" href="/fav.png"/>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-42370770-3', 'exkalibur.pl');
+  ga('send', 'pageview');
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(function(){
-    $("#wys").css("left","-216px");
-    $("#wys").hover(
-    function () {
-    $("#wys").stop().animate({left: "0px"}, 400 );
-    $(this).addClass("zamknij");
-    }, function () {
-    $("#wys").stop().animate({left: "-216px"}, 400 );
-    $(this).removeClass("zamknij"); }
-    );
-    });
-    
-    </script>
-
+</script>
 </head>
 
 <body>
@@ -91,7 +84,7 @@
 	</div>
 	<div class="fluid-image"><a href="gallery/odwet/odwetgal.html"><img src="zrodla/img/news5b.jpg" width="100%" alt="Nocna Gala Bokserów we Wrocławiu" /></a>
 	</div>
-    <span><br/><b>ODWET EXKALIBUR</b> został Bokserem Roku 2002 - ranking Klubu Boksera w Polsce.<br/></span>
+    <span><br/><b>ODWET EXKALIBUR</b> został Bokserem Roku 2002 - ranking Klubu Boksera w Polsce.<br/></span><hr/>
     </section>
 
  <section id="right">
@@ -103,11 +96,13 @@
     	<p><img src="zrodla/img/phone.png" alt="Telefon do Hodowli Bokserów Exkalibur" /><br/>tel. 601-151-692<br />
    			tel. 695-602-820
    		</p>
-
+<div>
     <a href="http://www.boxerklub.pl/"><img id="zwiazek" src="zrodla/img/logo.png" alt="Klub Boksera" />
-    <a href="http://www.zkwp.pl/zg/"><img id="zwiazek" src="zrodla/img/klub.png" alt="Związek Kynologiczny" />
+    <a href="http://www.zkwp.pl"><img id="zwiazek" src="zrodla/img/klub.png" alt="Związek Kynologiczny" /></div>
  </section>
+
 </div>
+
 <div id="wys">
 
 <div id="wewnatrz" style="float: left; width: 216px; margin-left: 0px;"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FHodowla-Exkalibur%2F687444911306172&amp;width=200&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:390px;" allowTransparency="true"></iframe></div> </div>
@@ -117,7 +112,7 @@
 	<footer>
         	<div class="row">
             	<div class="four columns first-column hide-for-small">
-                	<p class="footer-left"><a href="https://exkalibur.pl" target="_blank">Hodowla Bokserów Exkalibur</a></p>
+                	<p class="footer-left"><a href="http://exkalibur.pl" target="_blank">Hodowla Bokserów Exkalibur</a></p>
                 </div>
             	<div class="four columns middle-column back-to-top hide-for-small">
            	    	<a href="#logo"><img id="up" src="zrodla/img/up.png" alt="Góra strony"></a>
