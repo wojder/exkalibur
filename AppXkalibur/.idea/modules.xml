@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AppXkalibur.iml" filepath="$PROJECT_DIR$/AppXkalibur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../adt/sdk/extras/android/support/v7/appcompat/appcompat.iml" filepath="$PROJECT_DIR$/../../../adt/sdk/extras/android/support/v7/appcompat/appcompat.iml" />
     </modules>
   </component>
 </project>
