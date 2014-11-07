@@ -49,8 +49,8 @@ public class BoxerAdapter extends RecyclerView.Adapter<BoxerAdapter.ViewHolder> 
     }
         public static class ViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView boxerName;
-        public ImageView boxerImage;
+            public TextView boxerName;
+            public ImageView boxerImage;
 
         public ViewHolder(View itemView) {
             super(itemView);
