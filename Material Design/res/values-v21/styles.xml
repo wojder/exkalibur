@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="BoxerThemeMaterial" parent="android:Theme.Material.Light">
-
-        <item name="android:colorPrimary">@color/material_deep_teal_500</item>
-        <item name="android:textColorPrimary">@color/text_primary</item>
-        <!-- Customize your theme here. -->
-    </style>
-</resources>
