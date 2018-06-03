@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-exkalibur
-=========
-=======
-hodowla
-=======
->>>>>>> ad69bb5b1cbfae439afbdf2a5d4594e649b07982
+Boxer Breeding Exkalibur webPage
+
+Built from scratch using sublime, trying to keep things simple. First rule is to be mobile friendly. Supporting desktop, tablet and mobile resolutions. 
