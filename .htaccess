@@ -2,3 +2,8 @@ Order deny,allow
 ExpiresActive on
 ExpiresDefault A2592000
 DirectoryIndex index.html
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^www.exkalibur.pl [NC]
+RewriteRule ^(.*)$ https://exkalibur.pl/ [L,R=301]

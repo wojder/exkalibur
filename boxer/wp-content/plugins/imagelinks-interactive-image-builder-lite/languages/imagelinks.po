@@ -1,0 +1,452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-05-30 13:04+0300\n"
+"PO-Revision-Date: 2018-05-30 13:04+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;gettext;gettext_noop;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: *.css\n"
+"X-Poedit-SearchPathExcluded-2: *.txt\n"
+"X-Poedit-SearchPathExcluded-3: *.html\n"
+
+#: admin/class-imagelinks-admin.php:88
+msgid "Builder"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:95
+msgid "Using this ImageLinks"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:102
+msgid "Useful Links"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:119
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:130
+msgid "ImageLinks Items"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:131
+msgid "ImageLinks Item"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:132
+msgid "Add New"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:133
+msgid "Add New Item"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:134
+msgid "Edit Item"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:135
+msgid "New Item"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:136
+msgid "View Item"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:137
+msgid "Search ImageLinks Item"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:138
+msgid "No ImageLinks Item found"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:139
+msgid "No ImageLinks Item found in Trash"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:141
+msgid "All Items"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:142
+msgid "ImageLinks"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:169
+#: admin/partials/imagelinks-meta-box-builder-display.php:341
+msgid "Title"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:170
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:171
+#: admin/partials/imagelinks-meta-box-builder-display.php:352
+msgid "Image"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:172
+msgid "Author"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:173
+msgid "Date"
+msgstr ""
+
+#: admin/class-imagelinks-admin.php:279 admin/class-imagelinks-admin.php:280
+msgid "ImageLinks item updated."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:50
+msgid "General"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:51
+msgid "Hotspots"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:52
+msgid "Set Image"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:53
+msgid "Preview"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:64
+msgid "Set the full url for the image."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:65
+msgid "Image Url"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:74
+msgid "URL is local"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:81
+msgid "Set image custom width and height."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:82
+msgid "Image Size"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:88
+msgid "Default"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:89
+msgid "Fixed Size"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:96
+msgid "Width"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:100
+msgid "Height"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:108
+msgid ""
+"Choose a theme from the list.<br><br>Note:<br>You can create your own theme "
+"too and add it in the plugin folder for later use."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:109
+msgid "Theme"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:115
+#: admin/partials/imagelinks-meta-box-builder-display.php:438
+msgid "default"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:137
+msgid "Hotspots are below the popover window"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:144
+msgid "Enable or disable the animation in the mobile browsers."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:145
+msgid "Mobile Animation"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:157
+msgid ""
+"Set popover settings. They are common for all popover instances.<br><br>Note:"
+"<br>We recommend do not change the popover template without having some "
+"knowledge."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:158
+#: admin/partials/imagelinks-meta-box-builder-display.php:408
+msgid "Popover Settings"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:162
+msgid "Show Popovers"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:167
+#: admin/partials/imagelinks-meta-box-builder-display.php:435
+msgid "Popover Placement"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:170
+#: admin/partials/imagelinks-meta-box-builder-display.php:439
+msgid "top"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:171
+#: admin/partials/imagelinks-meta-box-builder-display.php:440
+msgid "bottom"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:172
+#: admin/partials/imagelinks-meta-box-builder-display.php:441
+msgid "left"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:173
+#: admin/partials/imagelinks-meta-box-builder-display.php:442
+msgid "right"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:174
+#: admin/partials/imagelinks-meta-box-builder-display.php:443
+msgid "top-left"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:175
+#: admin/partials/imagelinks-meta-box-builder-display.php:444
+msgid "top-right"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:176
+#: admin/partials/imagelinks-meta-box-builder-display.php:445
+msgid "bottom-left"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:177
+#: admin/partials/imagelinks-meta-box-builder-display.php:446
+msgid "bottom-right"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:181
+msgid "Popover Show Trigger"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:185
+msgid "Hover"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:191
+#: admin/partials/imagelinks-meta-box-builder-display.php:206
+msgid "Click"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:196
+msgid "Popover Hide Trigger"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:200
+msgid "Leave"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:212
+msgid "Body"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:218
+msgid "Manual"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:223
+msgid "Popover Show CSS3 Class"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:229
+msgid "Popover Hide CSS3 Class"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:235
+msgid "Popover HTML Template"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:244
+msgid ""
+"Enter any custom css you want to apply on this imagelins.<br><br>Note:"
+"<br>Please do not use <b>&lt;style&gt;...&lt;/style&gt;</b> tag with Custom "
+"CSS."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:245
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:254
+msgid "Enter custom CSS here"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:261
+msgid ""
+"Enter any custom javascript code you want to execute after the imagelinks "
+"load.<br><br>Note:<br>Please do not use <b>&lt;script&gt;...&lt;/script&gt;</"
+"b> tag with Custom JavaScript."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:262
+msgid "Custom JavaScript"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:271
+msgid "Enter custom JavaScript here"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:300
+msgid ""
+"Use the target tool to quick create a hotspot and it's location on the image."
+"<br><br>When the target tool is ON click on the image and you will get a new "
+"hotspot."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:301
+msgid "Target Tool State"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:313
+msgid ""
+"Use this options to set the hotspot's starting x and y location.<br><br>If "
+"you want to change the location of the selected hotspot, just click on the "
+"hotspot and drag it or use arrow keys."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:314
+msgid "Hotspot Location"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:319
+msgid "X %"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:326
+msgid "Y %"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:336
+msgid ""
+"Use this option to set hotspot settings. You can define your own style for "
+"hotspot with images, icons, text and etc."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:337
+msgid "Hotspot Settings"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:346
+msgid "Hotspot Image (otherwise the plugin uses a theme icon)"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:358
+msgid "Image Custom Width (px)"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:365
+msgid "Image Custom Height (px)"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:372
+msgid "Link URL"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:377
+msgid "Open Link in New Window"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:383
+msgid "Advanced Options"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:386
+msgid ""
+"Enable/disable hotspot custom style.<br><br>Note:<br>You can define your own "
+"style for hotspot with images, icons, text and etc.."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:388
+msgid "Custom style"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:392
+msgid "Hotspot Class Name"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:393
+msgid "Set custom classes for a hotspot element."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:397
+msgid "Hotspot HTML Content"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:398
+msgid "Set content for a hotspot element, if you want to make it complex."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:407
+msgid "Use this options to set popover settings."
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:412
+msgid "Show Popover"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:417
+msgid "Popover Content"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:419
+msgid "Edit in the editor"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:427
+msgid "Popover Content is HTML"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:432
+msgid "Show on Load"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:450
+msgid "Popover Custom Width (px)"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-shortcode-display.php:17
+msgid ""
+"To use this imagelinks in your posts or pages use the following shortcode:"
+msgstr ""
+
+#: public/class-imagelinks-public.php:164
+msgid "Invalid imagelinks shortcode attributes"
+msgstr ""
+
+#: public/class-imagelinks-public.php:172
+msgid "Invalid imagelinks slug attribute"
+msgstr ""

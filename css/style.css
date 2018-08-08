@@ -186,7 +186,7 @@ a {
 						background-color: #fff;
 					}
 
-					.h1title {
+					.h1title, .h2title {
 						color: #000;
 						font-size:250%;
 						padding-top:2%;
@@ -197,7 +197,7 @@ a {
 						line-height: 102%
 					}
 
-					.h1right {
+					.h1right, .h2right {
 						color: #01371a;
 						font-size:300%;
 						font-weight: bold;

@@ -1,0 +1,15 @@
+<div id="imgl-ui-modal-{{ modalData.id }}" class="imgl-ui-modal" tabindex="-1">
+	<div class="imgl-ui-modal-dialog">
+		<div class="imgl-ui-modal-header">
+			<div class="imgl-ui-modal-close" x-ng-click="modalData.deferred.resolve('close');">&times;</div>
+			<div class="imgl-ui-modal-title">Image URL</div>
+		</div>
+		<div class="imgl-ui-modal-data">
+			<input type="text" class="imgl-ui-modal-text imgl-ui-modal-long" x-ng-model="modalData.url">
+		</div>
+		<div class="imgl-ui-modal-footer">
+			<div class="imgl-ui-modal-btn imgl-ui-modal-btn-close" x-ng-click="modalData.deferred.resolve('close');">Close</div>
+			<div class="imgl-ui-modal-btn imgl-ui-modal-btn-create" x-ng-click="modalData.deferred.resolve(true);">OK</div>
+		</div>
+	</div>
+</div>

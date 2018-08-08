@@ -1,0 +1,959 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-05-30 13:04+0300\n"
+"PO-Revision-Date: 2018-05-30 13:04+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _;__;gettext;gettext_noop;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: *.css\n"
+"X-Poedit-SearchPathExcluded-2: *.txt\n"
+"X-Poedit-SearchPathExcluded-3: *.html\n"
+
+#: admin/class-imagelinks-admin.php:88
+msgid "Builder"
+msgstr "Построитель"
+
+#: admin/class-imagelinks-admin.php:95
+msgid "Using this ImageLinks"
+msgstr "Пример использования"
+
+#: admin/class-imagelinks-admin.php:102
+msgid "Useful Links"
+msgstr "Полезные ссылки"
+
+#: admin/class-imagelinks-admin.php:119
+msgid "Documentation"
+msgstr "Документация"
+
+#: admin/class-imagelinks-admin.php:130
+msgid "ImageLinks Items"
+msgstr "Все элементы"
+
+#: admin/class-imagelinks-admin.php:131
+msgid "ImageLinks Item"
+msgstr "Элемент"
+
+#: admin/class-imagelinks-admin.php:132
+msgid "Add New"
+msgstr "Добавить"
+
+#: admin/class-imagelinks-admin.php:133
+msgid "Add New Item"
+msgstr "Добавить элемент"
+
+#: admin/class-imagelinks-admin.php:134
+msgid "Edit Item"
+msgstr "Изменить элемент"
+
+#: admin/class-imagelinks-admin.php:135
+msgid "New Item"
+msgstr "Новый элемент"
+
+#: admin/class-imagelinks-admin.php:136
+msgid "View Item"
+msgstr "Посмотреть элемент"
+
+#: admin/class-imagelinks-admin.php:137
+msgid "Search ImageLinks Item"
+msgstr "Поиск элемента"
+
+#: admin/class-imagelinks-admin.php:138
+msgid "No ImageLinks Item found"
+msgstr "Ничего не найдено"
+
+#: admin/class-imagelinks-admin.php:139
+msgid "No ImageLinks Item found in Trash"
+msgstr "В корзине элемент не найден"
+
+#: admin/class-imagelinks-admin.php:141
+msgid "All Items"
+msgstr "Все элементы"
+
+#: admin/class-imagelinks-admin.php:142
+msgid "ImageLinks"
+msgstr "Imagelinks"
+
+#: admin/class-imagelinks-admin.php:169
+#: admin/partials/imagelinks-meta-box-builder-display.php:341
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/class-imagelinks-admin.php:170
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#: admin/class-imagelinks-admin.php:171
+#: admin/partials/imagelinks-meta-box-builder-display.php:352
+msgid "Image"
+msgstr "Изображение"
+
+#: admin/class-imagelinks-admin.php:172
+msgid "Author"
+msgstr "Автор"
+
+#: admin/class-imagelinks-admin.php:173
+msgid "Date"
+msgstr "Дата"
+
+#: admin/class-imagelinks-admin.php:279 admin/class-imagelinks-admin.php:280
+msgid "ImageLinks item updated."
+msgstr "Элемент обновлен."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:50
+msgid "General"
+msgstr "Настройки"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:51
+msgid "Hotspots"
+msgstr "Маркеры"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:52
+msgid "Set Image"
+msgstr "Установите изображение"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:53
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:64
+msgid "Set the full url for the image."
+msgstr "Установите полный URL-адрес для изображения."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:65
+msgid "Image Url"
+msgstr "Ссылка на изображение"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:74
+msgid "URL is local"
+msgstr "URL-адрес является локальным"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:81
+msgid "Set image custom width and height."
+msgstr "Пользовательская ширина и высота изображения (px)"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:82
+msgid "Image Size"
+msgstr "Размер изображения"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:88
+msgid "Default"
+msgstr "По умолчанию"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:89
+msgid "Fixed Size"
+msgstr "Фиксированный"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:96
+msgid "Width"
+msgstr "Ширина"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:100
+msgid "Height"
+msgstr "Высота"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:108
+msgid ""
+"Choose a theme from the list.<br><br>Note:<br>You can create your own theme "
+"too and add it in the plugin folder for later use."
+msgstr ""
+"Выберите тему из списка. <br><br>Заметка:<br>Вы также можете создать свою "
+"собственную тему и поместить ее в папку плагина для последующего "
+"использования."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:109
+msgid "Theme"
+msgstr "Темы"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:115
+#: admin/partials/imagelinks-meta-box-builder-display.php:438
+msgid "default"
+msgstr "По умолчанию"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:137
+msgid "Hotspots are below the popover window"
+msgstr "Маркеры располагаются под всплывающем окном"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:144
+msgid "Enable or disable the animation in the mobile browsers."
+msgstr "Включение и отключение анимации в мобильных браузерах."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:145
+msgid "Mobile Animation"
+msgstr "Мобильная анимация"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:157
+msgid ""
+"Set popover settings. They are common for all popover instances.<br><br>Note:"
+"<br>We recommend do not change the popover template without having some "
+"knowledge."
+msgstr ""
+"Задайте настраиваемый шаблон HTML для всплывающего окна. <br><br> Заметка: "
+"<br> Мы не рекомендуем изменять этот параметр без веских причин."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:158
+#: admin/partials/imagelinks-meta-box-builder-display.php:408
+msgid "Popover Settings"
+msgstr "Настройки всплывающих окон"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:162
+msgid "Show Popovers"
+msgstr "Всплывающие окна"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:167
+#: admin/partials/imagelinks-meta-box-builder-display.php:435
+msgid "Popover Placement"
+msgstr "Размещение всплывающего окна"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:170
+#: admin/partials/imagelinks-meta-box-builder-display.php:439
+msgid "top"
+msgstr "сверху"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:171
+#: admin/partials/imagelinks-meta-box-builder-display.php:440
+msgid "bottom"
+msgstr "снизу"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:172
+#: admin/partials/imagelinks-meta-box-builder-display.php:441
+msgid "left"
+msgstr "слева"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:173
+#: admin/partials/imagelinks-meta-box-builder-display.php:442
+msgid "right"
+msgstr "справа"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:174
+#: admin/partials/imagelinks-meta-box-builder-display.php:443
+msgid "top-left"
+msgstr "сверху-слева"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:175
+#: admin/partials/imagelinks-meta-box-builder-display.php:444
+msgid "top-right"
+msgstr "сверху-справа"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:176
+#: admin/partials/imagelinks-meta-box-builder-display.php:445
+msgid "bottom-left"
+msgstr "снизу-слева"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:177
+#: admin/partials/imagelinks-meta-box-builder-display.php:446
+msgid "bottom-right"
+msgstr "снизу-справа"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:181
+msgid "Popover Show Trigger"
+msgstr "События для показа всплывающего окна"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:185
+msgid "Hover"
+msgstr "При наведении курсора"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:191
+#: admin/partials/imagelinks-meta-box-builder-display.php:206
+msgid "Click"
+msgstr "При нажатии"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:196
+msgid "Popover Hide Trigger"
+msgstr "События для закрытия всплывающего окна"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:200
+msgid "Leave"
+msgstr "При покидании курсора"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:212
+msgid "Body"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:218
+msgid "Manual"
+msgstr "Вручную"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:223
+msgid "Popover Show CSS3 Class"
+msgstr "CSS3 класс при показе"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:229
+msgid "Popover Hide CSS3 Class"
+msgstr "CSS3 класс при закрытии"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:235
+msgid "Popover HTML Template"
+msgstr "HTML шаблон для всплывающего окна"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:244
+msgid ""
+"Enter any custom css you want to apply on this imagelins.<br><br>Note:"
+"<br>Please do not use <b>&lt;style&gt;...&lt;/style&gt;</b> tag with Custom "
+"CSS."
+msgstr ""
+"Введите любой пользовательский CSS, который вы хотите применить для этого "
+"элемента. <br><br> Заметка: <br>Не используйте <b>&lt;style&gt;...&lt;/"
+"style&gt;</b>."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:245
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:254
+msgid "Enter custom CSS here"
+msgstr "Введите пользовательский код CSS здесь"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:261
+msgid ""
+"Enter any custom javascript code you want to execute after the imagelinks "
+"load.<br><br>Note:<br>Please do not use <b>&lt;script&gt;...&lt;/script&gt;</"
+"b> tag with Custom JavaScript."
+msgstr ""
+"Введите любой пользовательский код javascript, который вы хотите выполнить "
+"после загрузки элемента. <br><br> Заметка: <br> Не используйте <b>&lt;"
+"script&gt;...&lt;/script&gt;</b>."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:262
+msgid "Custom JavaScript"
+msgstr "Пользовательский JS"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:271
+msgid "Enter custom JavaScript here"
+msgstr "Введите пользовательский JavaScript здесь"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:300
+msgid ""
+"Use the target tool to quick create a hotspot and it's location on the image."
+"<br><br>When the target tool is ON click on the image and you will get a new "
+"hotspot."
+msgstr ""
+"Используйте данный инструмент для быстрого создания маркеров и их размещения "
+"на изображении. Когда инструмент активен для создания маркера достаточно "
+"кликнуть в нужной позиции на изображениии."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:301
+msgid "Target Tool State"
+msgstr "Инструмент создания маркеров"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:313
+msgid ""
+"Use this options to set the hotspot's starting x and y location.<br><br>If "
+"you want to change the location of the selected hotspot, just click on the "
+"hotspot and drag it or use arrow keys."
+msgstr ""
+"Задайте начальную позицию по горизонтали и вертикали для маркера."
+"<br><br>Примечание:<br>Если вы хотите изменить местоположение выбранного "
+"маркера, просто кликните мышкой на нем и перетащите."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:314
+msgid "Hotspot Location"
+msgstr "Положение маркера"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:319
+msgid "X %"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:326
+msgid "Y %"
+msgstr ""
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:336
+msgid ""
+"Use this option to set hotspot settings. You can define your own style for "
+"hotspot with images, icons, text and etc."
+msgstr ""
+"Включить/отключить пользовательский стиль для маркера.<br><br>Примечание:"
+"<br>Можно определить собственный стиль для маркера с изображениями, "
+"значками, текстом и т.д..."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:337
+msgid "Hotspot Settings"
+msgstr "Настройки маркеров"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:346
+msgid "Hotspot Image (otherwise the plugin uses a theme icon)"
+msgstr ""
+"Задайте изображение для маркера, в противном случае плагин использует значок "
+"из темы."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:358
+msgid "Image Custom Width (px)"
+msgstr "Пользовательская ширина изображения (px)"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:365
+msgid "Image Custom Height (px)"
+msgstr "Пользовательские высота изображения (px)"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:372
+msgid "Link URL"
+msgstr "Ссылка"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:377
+msgid "Open Link in New Window"
+msgstr "Открывать ссылку в новом окне"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:383
+msgid "Advanced Options"
+msgstr "Расширенные настройки"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:386
+msgid ""
+"Enable/disable hotspot custom style.<br><br>Note:<br>You can define your own "
+"style for hotspot with images, icons, text and etc.."
+msgstr ""
+"Включить/отключить пользовательский стиль для маркера.<br><br>Примечание:"
+"<br>Можно определить собственный стиль для маркера с изображениями, "
+"значками, текстом и т.д..."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:388
+msgid "Custom style"
+msgstr "Пользовательский стиль"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:392
+msgid "Hotspot Class Name"
+msgstr "CSS классы маркера"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:393
+msgid "Set custom classes for a hotspot element."
+msgstr "Установить пользовательские CSS классы для маркера."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:397
+msgid "Hotspot HTML Content"
+msgstr "HTML разметка"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:398
+msgid "Set content for a hotspot element, if you want to make it complex."
+msgstr ""
+"Задать содержимое для маркера, если вы хотите сделать что-то нестандартное."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:407
+msgid "Use this options to set popover settings."
+msgstr ""
+"Используйте эти параметры для установки общих настроек для всплывающих окон."
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:412
+msgid "Show Popover"
+msgstr "Всплывающие окна"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:417
+msgid "Popover Content"
+msgstr "Содержимое всплывающего окна"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:419
+msgid "Edit in the editor"
+msgstr "Редактор"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:427
+msgid "Popover Content is HTML"
+msgstr "Содержимое является HTML разметкой"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:432
+msgid "Show on Load"
+msgstr "Показать сразу после загрузки элемента"
+
+#: admin/partials/imagelinks-meta-box-builder-display.php:450
+msgid "Popover Custom Width (px)"
+msgstr "Пользовательская ширина всплывающего окна (px)"
+
+#: admin/partials/imagelinks-meta-box-shortcode-display.php:17
+msgid ""
+"To use this imagelinks in your posts or pages use the following shortcode:"
+msgstr ""
+"Чтобы использовать данный элемент в ваших постах или страницах используйте "
+"следующие шорткод:"
+
+#: public/class-imagelinks-public.php:164
+msgid "Invalid imagelinks shortcode attributes"
+msgstr "Неверно заданы атрибуты вызова шорткода"
+
+#: public/class-imagelinks-public.php:172
+msgid "Invalid imagelinks slug attribute"
+msgstr "Неверный задан атрибут slug при вызове шорткода"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "iPanorama Items"
+#~ msgstr "Все панорамы"
+
+#~ msgid "iPanorama Item"
+#~ msgstr "Панорама"
+
+#~ msgid "iPanorama 360"
+#~ msgstr "iPanorama 360"
+
+#~ msgid "Total Scenes"
+#~ msgstr "Всего сцен"
+
+#~ msgid "scene(s)"
+#~ msgstr "сцена"
+
+#~ msgid "yaw"
+#~ msgstr "по горизонтали (лево/право)"
+
+#~ msgid "pitch"
+#~ msgstr "по вертикали (верх/низ)"
+
+#~ msgid "zoom"
+#~ msgstr "масштаб"
+
+#~ msgid "Load From File"
+#~ msgstr "Конфиг из файла"
+
+#~ msgid "Save To File"
+#~ msgstr "Конфиг в файл"
+
+#~ msgid "Scenes"
+#~ msgstr "Сцены"
+
+#~ msgid ""
+#~ "Set panorama custom width and height.<br><br>Note:<br>Also you can set "
+#~ "size via shortcode."
+#~ msgstr ""
+#~ "Задайте ширину и высоту панорамы. <br><br> Заметка: <br> Также вы можете "
+#~ "установить размер по короткому коду."
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Check to use global settings"
+#~ msgstr "Включение глобальных настроек для данного параметра"
+
+#~ msgid "Set a preview image that will display before the panorama load."
+#~ msgstr ""
+#~ "Установите изображение предварительного просмотра, которое будет "
+#~ "отображаться перед загрузкой панорамы."
+
+#~ msgid "Enable/disable image preview."
+#~ msgstr "Включить/отключить фоновое изображение."
+
+#~ msgid "Use this options to enable or disable different UI actions."
+#~ msgstr ""
+#~ "Используйте эти параметры для включения или отключения различных действий "
+#~ "пользовательского интерфейса."
+
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgid "If ON the panorama will automatically load."
+#~ msgstr "Если ON, панорама будет автоматически загружаться."
+
+#~ msgid "Auto load"
+#~ msgstr "Автоматическая загрузка"
+
+#~ msgid "If ON the panorama will automatically rotate when loaded."
+#~ msgstr "Если ON, панорама будет автоматически вращаться после загрузки."
+
+#~ msgid "Auto rotate"
+#~ msgstr "Автоматическое вращение"
+
+#~ msgid "Speed"
+#~ msgstr "Скорость"
+
+#~ msgid "Inactivity delay (ms)"
+#~ msgstr "Задержка бездействия (мс)"
+
+#~ msgid ""
+#~ "Enable/disable prevention of the default behavior on the mouseWheel event."
+#~ msgstr ""
+#~ "Включить/отключить поведения по умолчанию при использования колеса "
+#~ "прокрутки мыши."
+
+#~ msgid "Mouse wheel, prevent the default behavior"
+#~ msgstr "Колесо прокрутки мыши, отключение обработки по умолчанию"
+
+#~ msgid "Enable/disable the panorama rotate using the mouse scroll wheel."
+#~ msgstr ""
+#~ "Включить/отключить вращение панорамы с помощью колёсика прокрутки мыши."
+
+#~ msgid "Mouse wheel rotate"
+#~ msgstr "Вращение панорамы с помощью колёсика мыши"
+
+#~ msgid "Rotate coefficient"
+#~ msgstr "Шаг вращения"
+
+#~ msgid "Enable/disable the panorama zoom using the mouse scroll wheel."
+#~ msgstr "Включить/отключить масштабирование с помощью колеса прокрутки мыши."
+
+#~ msgid "Mouse wheel zoom"
+#~ msgstr "Управление масштабом с помощью колёсика мышки"
+
+#~ msgid "Zoom coefficient"
+#~ msgstr "Шаг масштабирования"
+
+#~ msgid "Enable/disable the \"grab/move\" mode on the mouse hover event."
+#~ msgstr ""
+#~ "Включить/отключить режим управления камерой при наведении курсора мыши."
+
+#~ msgid "Hover grab"
+#~ msgstr "Управление камерой при наведении и перемещении курсора"
+
+#~ msgid "Yaw coefficient"
+#~ msgstr "Шаг изменения по горизонтали (лево/право)"
+
+#~ msgid "Pitch coefficient"
+#~ msgstr "Шаг изменения по вертикали (верх/низ)"
+
+#~ msgid ""
+#~ "Enable/disable the \"grab/move\" mode on the mouse click and move events."
+#~ msgstr ""
+#~ "Включить/отключить режим управления камерой при перемещении курсора мыши "
+#~ "с нажатой клавишей."
+
+#~ msgid "Grab (click and drag)"
+#~ msgstr "Управление камерой с помощью мыши"
+
+#~ msgid "Grab coefficient"
+#~ msgstr "Шаг изменения"
+
+#~ msgid "Enable/disable the zoom by pinch gesture."
+#~ msgstr "Включить/отключить масштабирование с помощью жестов."
+
+#~ msgid "Pinch zoom"
+#~ msgstr "Масштабирование с помощью жестов"
+
+#~ msgid "Pinch zoom coefficient"
+#~ msgstr "Шаг измененения"
+
+#~ msgid "Enable/disable navigation via keyboard."
+#~ msgstr "Включить/отключить навигацию с помощью клавиатуры."
+
+#~ msgid "Keyboard navigation"
+#~ msgstr "Навигация при помощи клавиатуры"
+
+#~ msgid "Enable/disable zoom via keyboard."
+#~ msgstr "Включить/отключить масштабирование с помощью клавиатуры."
+
+#~ msgid "Keyboard zoom"
+#~ msgstr "Масштабирование с помощью клавиатуры"
+
+#~ msgid "Enable/disable limits for the pitch parameter."
+#~ msgstr ""
+#~ "Включить/отключить предельные значения для изменения параметра вектора "
+#~ "взгляда по вертикали (верх,низ)."
+
+#~ msgid "Pitch limits"
+#~ msgstr "Ограничения изменения вектора взгляда по вертикали (верх/низ)"
+
+#~ msgid "Top limit [-90, 90]"
+#~ msgstr "Верхняя граница [-90, 90]"
+
+#~ msgid "Bottom limit [-90, 90]"
+#~ msgstr "Нижняя граница [-90, 90]"
+
+#~ msgid ""
+#~ "Specifies the fade duration in milliseconds, when transitioning between "
+#~ "scenes."
+#~ msgstr "Длительность затухания в миллисекундах при переходе между сценами."
+
+#~ msgid "Scene fade duration (ms)"
+#~ msgstr "Продолжительность затухания сцены при смене (мс)"
+
+#~ msgid "Enable/disable loading scene images in background."
+#~ msgstr "Включить/отключить загрузку сцен в фоновом режиме."
+
+#~ msgid "Scene images background load"
+#~ msgstr "Загрузка всех сцен в фоне"
+
+#~ msgid "Use this options to show or hide controls."
+#~ msgstr ""
+#~ "Используйте эти параметры, чтобы показать или скрыть элементы управления."
+
+#~ msgid "Controls"
+#~ msgstr "Элементы управления"
+
+#~ msgid "Show controls on mouse hover event."
+#~ msgstr "Показывать элементы управления при наведении курсора мыши."
+
+#~ msgid "Show controls on hover"
+#~ msgstr "Показывать элементы управления при наведении курсора"
+
+#~ msgid "Show/hide the thumbnails slider control."
+#~ msgstr "Показать/скрыть элемент управления с миниатюрами сцен."
+
+#~ msgid "Thumbnails slider control"
+#~ msgstr "Миниатюры сцен"
+
+#~ msgid "Vertical type"
+#~ msgstr "Вертикальный вид"
+
+#~ msgid "Horizontal type"
+#~ msgstr "Горизонтальный вид"
+
+#~ msgid "Thumbnails are static"
+#~ msgstr "Статические"
+
+#~ msgid "Show/hide the toggle thumbnails slider control."
+#~ msgstr "Показать/скрыть элемент управления для показа миниатюр."
+
+#~ msgid "Toggle thumbnails slider control"
+#~ msgstr "Вкл/выкл миниатюр"
+
+#~ msgid "Show/hide the scene next/prev control."
+#~ msgstr "Показать/скрыть элемент управления перехода между сценами."
+
+#~ msgid "Scene next/prev control"
+#~ msgstr "Переход между сценами"
+
+#~ msgid "Scene next/prev loop"
+#~ msgstr "Переход между сценами по кругу"
+
+#~ msgid "Show/hide the zoom control."
+#~ msgstr "Показать/скрыть элемент управления масштабированием."
+
+#~ msgid "Zoom control"
+#~ msgstr "Масштабирование"
+
+#~ msgid "Show/hide the fullscreen control."
+#~ msgstr ""
+#~ "Показать/скрыть элемент управления включения и выключения полноэкранного "
+#~ "режима."
+
+#~ msgid "Fullscreen control"
+#~ msgstr "Полноэкранный режим"
+
+#~ msgid "Show/hide the auto rotate control."
+#~ msgstr "Показать/скрыть элемент управления автовращением."
+
+#~ msgid "AutoRotate control"
+#~ msgstr "Автоматическое вращение сцены"
+
+#~ msgid "Show/hide the compass control."
+#~ msgstr "Показать/скрыть элемент управления компасом."
+
+#~ msgid "Compass"
+#~ msgstr "Компас"
+
+#~ msgid "Show/hide the title control."
+#~ msgstr "Показать/скрыть элемент управления заголовком."
+
+#~ msgid "Enable/disable popovers."
+#~ msgstr "Включить/отключить всплывающие окна."
+
+#~ msgid "Set default placement property of popovers"
+#~ msgstr ""
+#~ "Установить свойство размещения всплывающего окна относительно маркера по "
+#~ "умолчанию"
+
+#~ msgid "Popover placement"
+#~ msgstr "Размещение всплывающего окна относительно маркера"
+
+#~ msgid "Popover is under the hotspot"
+#~ msgstr "Всплывающее окно распологается под маркером"
+
+#~ msgid "Specify how a popover will be triggered."
+#~ msgstr "Укажите, при каких командах будет показано всплывающее окно."
+
+#~ msgid "Specify how a popover will be hidden."
+#~ msgstr "Укажите, при каких командах будет закрыто всплывающее окно."
+
+#~ msgid "Grab"
+#~ msgstr "При перемещении сцены"
+
+#~ msgid "Specify a CSS animation class for the popover show"
+#~ msgstr ""
+#~ "Задание CSS класса с анимацией, который применяется при показе "
+#~ "всплывающего окна"
+
+#~ msgid "Specify a CSS animation class for the popover hide"
+#~ msgstr ""
+#~ "Задание CSS класса с анимацией, который применяется при закрытии "
+#~ "всплывающего окна"
+
+#~ msgid "Enable/disable custom css rules."
+#~ msgstr "Включить/отключить пользовательский CSS."
+
+#~ msgid ""
+#~ "Enable/disable a custom js source code. The code is hooked to the onload "
+#~ "event."
+#~ msgstr ""
+#~ "Включить/отключить пользовательский javascipt. Код подключен к событию "
+#~ "onLoad."
+
+#~ msgid "Handle 'onLoad' event"
+#~ msgstr "Обработать событие onLoad"
+
+#~ msgid "Use this options to set common scene settings."
+#~ msgstr "Используйте эти параметры для задания общих настроек сцены."
+
+#~ msgid "Scene Settings"
+#~ msgstr "Настройки сцены"
+
+#~ msgid "Set title for selected scene."
+#~ msgstr "Задать заголовок для выбранной сцены."
+
+#~ msgid "Scene title"
+#~ msgstr "Название сцены"
+
+#~ msgid "The title has HTML markup"
+#~ msgstr "Название содержит HTML разметку"
+
+#~ msgid "Select a type of selected scene and set images."
+#~ msgstr "Выберите тип сцены и набор панорамных изображений для нее."
+
+#~ msgid "sphere"
+#~ msgstr "сфера"
+
+#~ msgid "cylinder"
+#~ msgstr "цилиндр"
+
+#~ msgid "cube"
+#~ msgstr "куб"
+
+#~ msgid "Scene type"
+#~ msgstr "Тип сцены"
+
+#~ msgid "Select count of textures for a cube scene."
+#~ msgstr "Выберите количество текстур для сцены типа куб."
+
+#~ msgid "1 Texture"
+#~ msgstr "1 текстура"
+
+#~ msgid "6 Textures"
+#~ msgstr "6 текстур"
+
+#~ msgid "Texture count"
+#~ msgstr "Количество текстур"
+
+#~ msgid "Front"
+#~ msgstr "Изображение"
+
+#~ msgid "Back"
+#~ msgstr "Зад"
+
+#~ msgid "Left"
+#~ msgstr "Лево"
+
+#~ msgid "Right"
+#~ msgstr "Право"
+
+#~ msgid "Top"
+#~ msgstr "Верх"
+
+#~ msgid "Bottom"
+#~ msgstr "Низ"
+
+#~ msgid ""
+#~ "Set the sphere mesh quality.<br><br>Note:<br>This is a number of "
+#~ "horizontal and vertical segments."
+#~ msgstr ""
+#~ "Задайте качество сетки.<br><br>Примечание:<br>Это количество "
+#~ "горизонтальных и вертикальных сегментов."
+
+#~ msgid "Width segments"
+#~ msgstr "Кол-во сегментов по горизонтали"
+
+#~ msgid "Height segments"
+#~ msgstr "Кол-во сегментов по вертикали"
+
+#~ msgid "Set a thumbnail image for selected scene."
+#~ msgstr "Задать изображение миниатюры для выбранной сцены."
+
+#~ msgid "Scene thumb image"
+#~ msgstr "Изображение для миниатюры"
+
+#~ msgid ""
+#~ "Set the panorama's starting yaw and pitch position in degrees, and the "
+#~ "zoom parameter."
+#~ msgstr ""
+#~ "Установите начальную позицию камеры по горизонтали и вертикали в градусах "
+#~ "и параметр масштабирования."
+
+#~ msgid "Yaw"
+#~ msgstr "по горизонтали"
+
+#~ msgid "Pitch"
+#~ msgstr "по вертикали"
+
+#~ msgid "Zoom"
+#~ msgstr "масштаб"
+
+#~ msgid ""
+#~ "Set the north offset for compass direction, in degrees.<br><br>Note:"
+#~ "<br>It only has an effect if compass is set to ON."
+#~ msgstr ""
+#~ "Задайте смещение компаса относительно севера в градусах."
+#~ "<br><br>Примечание:<br>Компас должен быть включен."
+
+#~ msgid "Compass Offset"
+#~ msgstr "Компас"
+
+#~ msgid ""
+#~ "Enable/disable target tool.<br><br>Note:<br>When the target tool is ON "
+#~ "click on the panorama together with Ctrl Key (for Mac with Meta Key)."
+#~ msgstr ""
+#~ "Включить/отключить инструмент маркеров.<br><br>Примечание:<br>Когда "
+#~ "инструмент активен при нажатой клавише Ctrl (для Mac клавиша Meta) и "
+#~ "клике мыши на панораме будет создан маркер."
+
+#~ msgid "Set a hotspot location."
+#~ msgstr "Задайте местоположение маркера."
+
+#~ msgid "Set common hotspot settings."
+#~ msgstr "Задайте общие параметры для маркера."
+
+#~ msgid "Specify the ID of the scene to link to."
+#~ msgstr "Идентификатор сцены для перехода."
+
+#~ msgid "none"
+#~ msgstr "не задано"
+
+#~ msgid "Go to the scene"
+#~ msgstr "Перейти на сцену"
+
+#~ msgid "This lets you connect a hotspot to an internet address."
+#~ msgstr "Это позволяет задать маркер в виде интернет ссылки."
+
+#~ msgid "Url"
+#~ msgstr "Ссылка"
+
+#~ msgid "Set common hotspot popover settings."
+#~ msgstr "Задайте общие параметры для всплывающего окна выбранного маркера."
+
+#~ msgid "Enable/disable hotspot popover window."
+#~ msgstr "Включить/отключить всплывающее окно."
+
+#~ msgid "The popover content has HTML markup"
+#~ msgstr "Содержимое является HTML разметкой"
+
+#~ msgid "Set a placement property for a popover window."
+#~ msgstr ""
+#~ "Установить свойство размещения всплывающего окна относительно маркера по "
+#~ "умолчанию."
+
+#~ msgid ""
+#~ "This is global settings. These options are shared among all items if you "
+#~ "turn it ON for an item, see an item right side checkbox for each "
+#~ "parameter."
+#~ msgstr ""
+#~ "Глобальные настройки. Данные параметры применяются ко всем элементам, "
+#~ "если в них эта опция активна, смотри флажок переключения в правой части "
+#~ "параметров элемента."
+
+#~ msgid "Update Settings"
+#~ msgstr "Сохранить"
+
+#~ msgid "Custom CSS Content"
+#~ msgstr "Пользовательский CSS"
+
+#~ msgid "Custom JS code"
+#~ msgstr "Пользовательский JavaScript код"
+
+#~ msgid ""
+#~ "This is global settings. These options are shared among all items if you "
+#~ "turn it ON for an item, see an item right side checkbox."
+#~ msgstr ""
+#~ "Глобальный настройки. Данные настройки применяются для всех элементов, "
+#~ "если в параметрах элемента данная функция активна, смотри флажок "
+#~ "переключения в правой стороне каждого параметра."
