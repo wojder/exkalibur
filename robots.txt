@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://exkalibur.pl/sitemap.xml
