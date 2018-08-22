@@ -268,7 +268,7 @@ a:hover {
 	#right,
 	#top2,
 	#top3,
-	#top6,
+	#top4,
 	.logo-desktop,
 	.logo-phone {
 		display: none
@@ -290,7 +290,7 @@ a:hover {
 		width: 31.3333333333%
 	}
 	#top1,
-	#top4,
+	#top6,
 	#top5 {
 		width: 33.33333333%
 	}
@@ -308,8 +308,11 @@ a:hover {
 	#gallery-wrapper div {
 		background: 0 0;
 		width: 100%;
-		height: auto
+		height: auto;
 	}
+    .galleryContainer {
+        display: none;
+    }
 	#gallery-wrapper div div.desc {
 		background: rgba(0, 0, 0, .5);
 		transform: none;
@@ -326,7 +329,9 @@ a:hover {
 		display: inline-block;
 		margin: 1%
 	}
-	#top6,
+    #top6{
+        display: inline-block;
+    }
 	#up,
 	#wys,
 	p.footer-left {
